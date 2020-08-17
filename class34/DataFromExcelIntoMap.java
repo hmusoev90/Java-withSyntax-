@@ -37,5 +37,15 @@ public class DataFromExcelIntoMap {
 		}
 		System.out.println(xlsList);
 
+		System.out.println("--- Printing Map 1 by 1 ---");
+		for (Map<String, String> map : xlsList) {
+			System.out.println(map);
+		}
+		System.out.println();
+		
+		for (int i=0; i<xlsList.size(); i++) {
+			
+		}
+
 	}
 }
